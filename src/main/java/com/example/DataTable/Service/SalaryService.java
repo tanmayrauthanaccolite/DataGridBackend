@@ -25,7 +25,7 @@ public class SalaryService {
 
     public List<Salaries> saveData()
     {
-        File file= new File("C:\\Users\\tanmay.rauthan\\Documents\\DataTable\\DataTable\\src\\main\\resources\\static\\Salaries.csv");
+        File file= new File("C:\\Users\\tanmay.rauthan\\Documents\\DataTable\\DataTable\\src\\main\\resources\\static\\salaries_new.csv");
         try (BufferedReader fileReader = new BufferedReader(new FileReader(file));
              CSVParser csvParser = new CSVParser(fileReader,
                      CSVFormat.DEFAULT.withFirstRecordAsHeader().withIgnoreHeaderCase().withTrim());) {

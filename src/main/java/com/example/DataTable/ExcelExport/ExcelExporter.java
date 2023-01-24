@@ -35,7 +35,7 @@ public class ExcelExporter {
         createCell(row, 3, "Yrs Since Phd", style);
         createCell(row, 4, "Yrs Exp", style);
         createCell(row, 5, "Sex", style);
-        createCell(row, 5, "Salary", style);
+        createCell(row, 6, "Salary", style);
     }
     private void createCell(Row row, int columnCount, Object valueOfCell, CellStyle style) {
         sheet.autoSizeColumn(columnCount);
